@@ -1,39 +1,38 @@
 [colors]
 draw_bold_text_with_bright_colors = true
 
-[colors.bright]
-black = "#686868"
-blue = "#57c7ff"
-cyan = "#9aedfe"
-green = "#5af78e"
-magenta = "#ff6ac1"
-red = "#ff5c57"
-white = "#eff0eb"
-yellow = "#f3f99d"
+# Colors (Ayu Dark)
 
-[colors.cursor]
-cursor = "#97979b"
-
-[colors.normal]
-black = "#282a36"
-blue = "#57c7ff"
-cyan = "#9aedfe"
-green = "#5af78e"
-magenta = "#ff6ac1"
-red = "#ff5c57"
-white = "#f1f1f0"
-yellow = "#f3f99d"
-
+# Default colors
 [colors.primary]
-background = "#282a36"
-foreground = "#eff0eb"
+background = '#0A0E14'
+foreground = '#B3B1AD'
 
-[colors.selection]
-background = "#feffff"
-text = "#282a36"
+# Normal colors
+[colors.normal]
+black   = '#01060E'
+red     = '#EA6C73'
+green   = '#91B362'
+yellow  = '#F9AF4F'
+blue    = '#53BDFA'
+magenta = '#FAE994'
+cyan    = '#90E1C6'
+white   = '#C7C7C7'
+
+# Bright colors
+[colors.bright]
+black   = '#686868'
+red     = '#F07178'
+green   = '#C2D94C'
+yellow  = '#FFB454'
+blue    = '#59C2FF'
+magenta = '#FFEE99'
+cyan    = '#95E6CB'
+white   = '#FFFFFF'
+
 
 [font]
-size = 17
+size = 15
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
@@ -52,7 +51,11 @@ family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
 [window]
-decorations = "Buttonless"
+decorations = "Transparent"
+opacity = 0.9
+blur = true
+option_as_alt = "OnlyLeft"
+dynamic_padding = true
 
 [window.class]
 general = "Alacritty"
@@ -60,7 +63,7 @@ instance = "Alacritty"
 
 [window.padding]
 x = 5
-y = 5
+y = 15
 
 [keyboard]
 bindings = [
@@ -72,3 +75,10 @@ bindings = [
 ,{ key= "Back", mods= "Alt", chars= "\u001b\u007f" } # Delete word
 ,{ key= "c", mods= "Command", action= "Copy" } # Copy to Clipboard
 ]
+
+[cursor.style]
+blinking = "On"
+
+[cursor]
+blink_interval = 500
+blink_timeout = 0
