@@ -10,7 +10,7 @@ lspconfig.servers = {
 }
 
 -- EXAMPLE
-local default_servers = { "html", "cssls" }
+local default_servers = { "html", "cssls", "nil_ls" }
 local nvlsp = require("nvchad.configs.lspconfig")
 
 -- lsps with default config
