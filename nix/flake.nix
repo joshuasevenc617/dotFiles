@@ -48,6 +48,7 @@
           "postman"
           "logi-options+"
           "input-source-pro"
+          "stow"
         ];
         masApps = {
           "Xcode" = 497799835;
