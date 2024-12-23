@@ -99,7 +99,7 @@
             "${pkgs.alacritty}/Applications/Alacritty.app"
           ];
           show-recents = false;
-          wvous-br-corner = "Start Screen Saver";
+          wvous-br-corner = 5;
         };
         finder = {
           FXPreferredViewStyle = "clmv";
