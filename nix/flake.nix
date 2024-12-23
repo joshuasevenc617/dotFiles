@@ -25,10 +25,8 @@
           pkgs.tmux
           pkgs.zoxide
           pkgs.fzf
-          pkgs.github
           pkgs.ripgrep
           pkgs.rectangle
-          pkgs.alttab
         ];
 
       homebrew = {
@@ -49,6 +47,7 @@
           "logi-options+"
           "input-source-pro"
           "stow"
+          "alt-tab"
         ];
         masApps = {
           "Xcode" = 497799835;
@@ -64,7 +63,7 @@
       };
 
       fonts.packages = [
-        (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+        pkgs.nerd-fonts.jetbrains-mono
       ];
 
       # Add GUI applications sim link for spotlight to search
