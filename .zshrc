@@ -13,7 +13,7 @@ fi
 source "${ZINIT_HOME}/zinit.zsh"
 
 # Add in Powerlevel10k
-zinit ice depth=1; zinit light remkatv/powerlevel10k
+zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
@@ -26,7 +26,7 @@ zinit snippet OMZP::git
 zinit snippet OMZP::sudo
 zinit snippet OMZP::aws
 zinit snippet OMZP::kubectl
-zinit snippet OMZP::kubetx
+zinit snippet OMZP::kubectx
 zinit snippet OMZP::command-not-found
 
 # Load zsh-completions
