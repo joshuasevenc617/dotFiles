@@ -39,7 +39,6 @@ zinit snippet OMZP::kubectl
 zinit snippet OMZP::kubectx
 zinit snippet OMZP::command-not-found
 zinit snippet OMZP::common-aliases
-zinit snippet OMZP::directories
 
 # Load zsh-completions
 autoload -Uz compinit && compinit
