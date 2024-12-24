@@ -38,6 +38,8 @@ zinit snippet OMZP::aws
 zinit snippet OMZP::kubectl
 zinit snippet OMZP::kubectx
 zinit snippet OMZP::command-not-found
+zinit snippet OMZP::common-aliases
+zinit snippet OMZP::directories
 
 # Load zsh-completions
 autoload -Uz compinit && compinit
@@ -72,6 +74,9 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias nv='nvim'
 alias c='clear'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 
 # Shell integration
 eval "$(fzf --zsh)"
