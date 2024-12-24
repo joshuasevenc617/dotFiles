@@ -35,6 +35,7 @@
           "mas"
           "pyenv"
           "pyenv-virtualenv"
+          "lazygit"
         ];
         casks = [
           "firefox"
