@@ -7,6 +7,8 @@ local lspconfig = require("lspconfig")
 lspconfig.servers = {
   "ts_ls",
   "clangd",
+  "nil_ls",
+  "lua_ls",
 }
 
 -- EXAMPLE
