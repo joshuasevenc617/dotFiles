@@ -11,8 +11,8 @@ if [[ -f "/opt/homebrew/bin/brew" ]] then
 fi
 
 # Load private environment variables
-if [ -f "$HOME/.zsh_private" ]; then
-  source "$HOME/.zsh_private"
+if [ -f "$HOME/.zshrc_private" ]; then
+  source "$HOME/.zshrc_private"
 fi
 
 # Set the directory we want to store zinit and plugins
