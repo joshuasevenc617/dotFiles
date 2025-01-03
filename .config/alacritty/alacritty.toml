@@ -3,33 +3,45 @@ draw_bold_text_with_bright_colors = true
 
 # Colors (Ayu Dark)
 
-# Default colors
+# Catppuccino theme scheme for Alacritty
+
 [colors.primary]
-background = '#0A0E14'
-foreground = '#B3B1AD'
+background = '#1E1E2E'
+foreground = '#D6D6D6'
 
-# Normal colors
+[colors.cursor]
+text = '#1E1E2E'
+cursor = '#D9D9D9'
+
 [colors.normal]
-black   = '#01060E'
-red     = '#EA6C73'
-green   = '#91B362'
-yellow  = '#F9AF4F'
-blue    = '#53BDFA'
-magenta = '#FAE994'
-cyan    = '#90E1C6'
-white   = '#C7C7C7'
+black = '#181A1F'
+red = '#E86671'
+green = '#98C379'
+yellow = '#E5C07B'
+blue = '#61AFEF'
+magenta = '#C678DD'
+cyan = '#54AFBC'
+white = '#ABB2BF'
 
-# Bright colors
 [colors.bright]
-black   = '#686868'
-red     = '#F07178'
-green   = '#C2D94C'
-yellow  = '#FFB454'
-blue    = '#59C2FF'
-magenta = '#FFEE99'
-cyan    = '#95E6CB'
-white   = '#FFFFFF'
+black = '#5C6370'
+red = '#E86671'
+green = '#98C379'
+yellow = '#E5C07B'
+blue = '#61AFEF'
+magenta = '#C678DD'
+cyan = '#54AFBC'
+white = '#F7F7F7'
 
+[colors.dim]
+black = '#5C6370'
+red = '#74423F'
+green = '#98C379'
+yellow = '#E5C07B'
+blue = '#61AFEF'
+magenta = '#6E4962'
+cyan = '#5C8482'
+white = '#828282'
 
 [font]
 size = 15
@@ -52,7 +64,7 @@ style = "Regular"
 
 [window]
 decorations = "Transparent"
-opacity = 0.9
+opacity = 1
 blur = true
 option_as_alt = "OnlyLeft"
 dynamic_padding = true
