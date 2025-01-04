@@ -48,19 +48,19 @@ size = 15
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
-style = "Bold"
+# style = "Bold"
 
 [font.bold_italic]
 family = "JetBrainsMono Nerd Font"
-style = "BoldItalic"
+# style = "BoldItalic"
 
 [font.italic]
 family = "JetBrainsMono Nerd Font"
-style = "Italic"
+# style = "Italic"
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
-style = "Regular"
+# style = "Regular"
 
 [window]
 decorations = "Transparent"
