@@ -55,6 +55,10 @@ zinit cdreplay -q
 
 # Keybindings
 bindkey -e
+bindkey "^[[H" beginning-of-line
+bindkey "^[[1~" beginning-of-line
+bindkey "^[[F"  end-of-line
+bindkey "^[[4~" end-of-line
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 
