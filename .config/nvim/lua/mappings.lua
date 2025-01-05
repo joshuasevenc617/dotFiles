@@ -22,3 +22,8 @@ map("n", "<c-\\>", "<cmd>:TmuxNavigatePrevious<cr>")
 -- dap
 map("n", "<leader>db", "<cmd>:DapToggleBreakpoint<cr>", { desc = "Add breakpoint at line" })
 map("n", "<leader>dr", "<cmd>:DapContinue<cr>", { desc = "Start or continue the debugger" })
+
+-- copilot
+map("i", "<C-l>", function()
+  vim.fn.feedkeys(vim.fn["copilot#Accept"](), "")
+end, { desc = "Copilot Accept", noremap = true, silent = true })
