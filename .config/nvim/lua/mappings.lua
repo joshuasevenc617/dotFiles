@@ -27,3 +27,6 @@ map("n", "<leader>dr", "<cmd>:DapContinue<cr>", { desc = "Start or continue the 
 map("i", "<C-l>", function()
   vim.fn.feedkeys(vim.fn["copilot#Accept"](), "")
 end, { desc = "Copilot Accept", noremap = true, silent = true })
+
+-- local highlight
+map("n", "<leader>lh", "<cmd>:LocalHighlightToggle<cr>", { desc = "Toggle local highlight" })
