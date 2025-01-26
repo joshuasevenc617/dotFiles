@@ -31,6 +31,47 @@ return {
   },
 
   {
+    "nvim-telescope/telescope.nvim",
+    lazy = false,
+    tag = "0.1.8",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
+    },
+    config = function()
+      require("telescope").setup({
+        pickers = {
+          find_files = {
+            theme = "ivy",
+          },
+          live_grep = {
+            theme = "ivy",
+          },
+          buffers = {
+            theme = "ivy",
+          },
+          oldfiles = {
+            theme = "ivy",
+          },
+          git_files = {
+            theme = "ivy",
+          },
+          git_commits = {
+            theme = "ivy",
+          },
+        },
+        extensions = {
+          fzf = {},
+        },
+      })
+
+      require("telescope").load_extension("fzf")
+
+      require("configs.multigrep").setup()
+    end,
+  },
+
+  {
     "jay-babu/mason-nvim-dap.nvim",
     event = "VeryLazy",
     dependencies = {
