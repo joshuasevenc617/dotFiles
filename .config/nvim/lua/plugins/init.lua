@@ -241,7 +241,7 @@ return {
   },
 
   {
-    "tzachar/local-highlight.vim",
+    "tzachar/local-highlight.nvim",
     lazy = false,
     config = function()
       require("local-highlight").setup({
