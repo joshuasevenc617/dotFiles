@@ -84,6 +84,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+alias l='eza -l --icons --git -a'
 alias nv='nvim'
 alias c='clear'
 alias tm='tmux'

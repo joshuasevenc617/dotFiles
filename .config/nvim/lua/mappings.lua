@@ -30,3 +30,6 @@ end, { desc = "Copilot Accept", noremap = true, silent = true })
 
 -- local highlight
 map("n", "<leader>lh", "<cmd>:LocalHighlightToggle<cr>", { desc = "Toggle local highlight" })
+
+-- csv viewer
+map("n", "<leader>cv", "<cmd>:CsvViewToggle<cr>", { desc = "Toggle csv viewer" })
