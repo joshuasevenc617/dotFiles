@@ -95,6 +95,7 @@ alias lg='lazygit'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias sn='~/scripts/sessionizer.sh'
 
 # Shell integration
 eval "$(fzf --zsh)"
